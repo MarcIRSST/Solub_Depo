@@ -1,0 +1,485 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 05:27:50
+* VERSION: 1.4.0
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.3.27                                |7.4.16
+OS__________________: Linux                                 |Linux
+CREATED_____________: 2021-05-17 14:55:00
+WP VERSION__________: 5.6.4
+DUP VERSION_________: 1.4.0
+DB__________________: 5.7.32
+DB TABLES___________: 28
+DB ROWS_____________: 6,474
+DB FILE SIZE________: 34.75MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.4.16 | SAPI: litespeed
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache
+DOC ROOT____________: "/home/solubirsst/public_html"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://solub.irsst.qc.ca/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "shellexec_unzip"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "/home/solubirsst/public_html/20210517_solubaccueildemarchedesubst_[HASH]_20210517145500_archive.zip"
+SIZE________________: 94.09MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION SHELLEXEC >>> 
+<<< Shell-Exec Unzip Complete.
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+
+STEP-1 COMPLETE @ 05:32:50 - RUNTIME: 299.2198 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 05:37:58
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.3.28 -- Build Server: 5.7.32
+FILE SIZE:	dup-database__[HASH].sql (26.74MB)
+TIMEOUT:	5000
+MAXPACK:	536870912
+SQLMODE:	NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/home/solubirsst/public_html/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	280
+
+wpo5_blc_filters: (0)
+wpo5_blc_instances: (652)
+wpo5_blc_links: (553)
+wpo5_blc_synch: (131)
+wpo5_commentmeta: (0)
+wpo5_comments: (0)
+wpo5_duplicator_packages: (0)
+wpo5_fusion_form_entries: (0)
+wpo5_fusion_form_fields: (0)
+wpo5_fusion_form_submissions: (0)
+wpo5_fusion_forms: (0)
+wpo5_links: (0)
+wpo5_options: (258)
+wpo5_postmeta: (1755)
+wpo5_posts: (1468)
+wpo5_term_relationships: (107)
+wpo5_term_taxonomy: (10)
+wpo5_termmeta: (47)
+wpo5_terms: (10)
+wpo5_usermeta: (124)
+wpo5_users: (3)
+wpo5_yoast_indexable: (262)
+wpo5_yoast_indexable_hierarchy: (38)
+wpo5_yoast_migrations: (21)
+wpo5_yoast_primary_term: (0)
+wpo5_yoast_seo_links: (872)
+wpo5_yoast_seo_meta: (254)
+wpo5_yydev_tagmanager: (3)
+Removed '236' cache/transient rows
+
+INSERT DATA RUNTIME: 2.7818 sec.
+STEP-2 COMPLETE @ 05:38:01 - RUNTIME: 2.8005 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 05:38:36
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Solub - Accueil - Démarche de substitution des solvants en milieu de travail"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home/customer/www/solub.irsst.qc.ca/public_html"
+path_new______________: "/home/solubirsst/public_html"
+siteurl_______________: "http://solub.irsst.qc.ca"
+url_old_______________: "https://solub.irsst.qc.ca"
+url_new_______________: "http://solub.irsst.qc.ca"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wpo5_blc_filters"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpo5_blc_instances"______________________________[ROWS:   652][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/solub.irsst.qc.ca/public_html" => "/home/solubirsst/public_html"
+	SEARCH  2:"\/home\/customer\/www\/solub.irsst.qc.ca\/public_html" => "\/home\/solubirsst\/public_html"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fsolub.irsst.qc.ca%2Fpublic_html" => "%2Fhome%2Fsolubirsst%2Fpublic_html"
+	SEARCH  4:"\home\customer\www\solub.irsst.qc.ca\public_html" => "/home/solubirsst/public_html"
+	SEARCH  5:"\\home\\customer\\www\\solub.irsst.qc.ca\\public_html" => "\/home\/solubirsst\/public_html"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Csolub.irsst.qc.ca%5Cpublic_html" => "%2Fhome%2Fsolubirsst%2Fpublic_html"
+	SEARCH  7:"https://solub.irsst.qc.ca" =======================> "http://solub.irsst.qc.ca"
+	SEARCH  8:"https:\/\/solub.irsst.qc.ca" =====================> "http:\/\/solub.irsst.qc.ca"
+	SEARCH  9:"https%3A%2F%2Fsolub.irsst.qc.ca" =================> "http%3A%2F%2Fsolub.irsst.qc.ca"
+
+EVALUATE TABLE: "wpo5_blc_links"__________________________________[ROWS:   553][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/solub.irsst.qc.ca/public_html" => "/home/solubirsst/public_html"
+	SEARCH  2:"\/home\/customer\/www\/solub.irsst.qc.ca\/public_html" => "\/home\/solubirsst\/public_html"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fsolub.irsst.qc.ca%2Fpublic_html" => "%2Fhome%2Fsolubirsst%2Fpublic_html"
+	SEARCH  4:"\home\customer\www\solub.irsst.qc.ca\public_html" => "/home/solubirsst/public_html"
+	SEARCH  5:"\\home\\customer\\www\\solub.irsst.qc.ca\\public_html" => "\/home\/solubirsst\/public_html"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Csolub.irsst.qc.ca%5Cpublic_html" => "%2Fhome%2Fsolubirsst%2Fpublic_html"
+	SEARCH  7:"https://solub.irsst.qc.ca" =======================> "http://solub.irsst.qc.ca"
+	SEARCH  8:"https:\/\/solub.irsst.qc.ca" =====================> "http:\/\/solub.irsst.qc.ca"
+	SEARCH  9:"https%3A%2F%2Fsolub.irsst.qc.ca" =================> "http%3A%2F%2Fsolub.irsst.qc.ca"
+
+EVALUATE TABLE: "wpo5_blc_synch"__________________________________[ROWS:   131][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/solub.irsst.qc.ca/public_html" => "/home/solubirsst/public_html"
+	SEARCH  2:"\/home\/customer\/www\/solub.irsst.qc.ca\/public_html" => "\/home\/solubirsst\/public_html"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fsolub.irsst.qc.ca%2Fpublic_html" => "%2Fhome%2Fsolubirsst%2Fpublic_html"
+	SEARCH  4:"\home\customer\www\solub.irsst.qc.ca\public_html" => "/home/solubirsst/public_html"
+	SEARCH  5:"\\home\\customer\\www\\solub.irsst.qc.ca\\public_html" => "\/home\/solubirsst\/public_html"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Csolub.irsst.qc.ca%5Cpublic_html" => "%2Fhome%2Fsolubirsst%2Fpublic_html"
+	SEARCH  7:"https://solub.irsst.qc.ca" =======================> "http://solub.irsst.qc.ca"
+	SEARCH  8:"https:\/\/solub.irsst.qc.ca" =====================> "http:\/\/solub.irsst.qc.ca"
+	SEARCH  9:"https%3A%2F%2Fsolub.irsst.qc.ca" =================> "http%3A%2F%2Fsolub.irsst.qc.ca"
+
+EVALUATE TABLE: "wpo5_commentmeta"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpo5_comments"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpo5_duplicator_packages"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpo5_fusion_form_entries"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpo5_fusion_form_fields"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpo5_fusion_form_submissions"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpo5_fusion_forms"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpo5_links"______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpo5_options"____________________________________[ROWS:   258][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/solub.irsst.qc.ca/public_html" => "/home/solubirsst/public_html"
+	SEARCH  2:"\/home\/customer\/www\/solub.irsst.qc.ca\/public_html" => "\/home\/solubirsst\/public_html"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fsolub.irsst.qc.ca%2Fpublic_html" => "%2Fhome%2Fsolubirsst%2Fpublic_html"
+	SEARCH  4:"\home\customer\www\solub.irsst.qc.ca\public_html" => "/home/solubirsst/public_html"
+	SEARCH  5:"\\home\\customer\\www\\solub.irsst.qc.ca\\public_html" => "\/home\/solubirsst\/public_html"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Csolub.irsst.qc.ca%5Cpublic_html" => "%2Fhome%2Fsolubirsst%2Fpublic_html"
+	SEARCH  7:"https://solub.irsst.qc.ca" =======================> "http://solub.irsst.qc.ca"
+	SEARCH  8:"https:\/\/solub.irsst.qc.ca" =====================> "http:\/\/solub.irsst.qc.ca"
+	SEARCH  9:"https%3A%2F%2Fsolub.irsst.qc.ca" =================> "http%3A%2F%2Fsolub.irsst.qc.ca"
+
+EVALUATE TABLE: "wpo5_postmeta"___________________________________[ROWS:  1755][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/solub.irsst.qc.ca/public_html" => "/home/solubirsst/public_html"
+	SEARCH  2:"\/home\/customer\/www\/solub.irsst.qc.ca\/public_html" => "\/home\/solubirsst\/public_html"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fsolub.irsst.qc.ca%2Fpublic_html" => "%2Fhome%2Fsolubirsst%2Fpublic_html"
+	SEARCH  4:"\home\customer\www\solub.irsst.qc.ca\public_html" => "/home/solubirsst/public_html"
+	SEARCH  5:"\\home\\customer\\www\\solub.irsst.qc.ca\\public_html" => "\/home\/solubirsst\/public_html"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Csolub.irsst.qc.ca%5Cpublic_html" => "%2Fhome%2Fsolubirsst%2Fpublic_html"
+	SEARCH  7:"https://solub.irsst.qc.ca" =======================> "http://solub.irsst.qc.ca"
+	SEARCH  8:"https:\/\/solub.irsst.qc.ca" =====================> "http:\/\/solub.irsst.qc.ca"
+	SEARCH  9:"https%3A%2F%2Fsolub.irsst.qc.ca" =================> "http%3A%2F%2Fsolub.irsst.qc.ca"
+
+EVALUATE TABLE: "wpo5_posts"______________________________________[ROWS:  1468][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/solub.irsst.qc.ca/public_html" => "/home/solubirsst/public_html"
+	SEARCH  2:"\/home\/customer\/www\/solub.irsst.qc.ca\/public_html" => "\/home\/solubirsst\/public_html"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fsolub.irsst.qc.ca%2Fpublic_html" => "%2Fhome%2Fsolubirsst%2Fpublic_html"
+	SEARCH  4:"\home\customer\www\solub.irsst.qc.ca\public_html" => "/home/solubirsst/public_html"
+	SEARCH  5:"\\home\\customer\\www\\solub.irsst.qc.ca\\public_html" => "\/home\/solubirsst\/public_html"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Csolub.irsst.qc.ca%5Cpublic_html" => "%2Fhome%2Fsolubirsst%2Fpublic_html"
+	SEARCH  7:"https://solub.irsst.qc.ca" =======================> "http://solub.irsst.qc.ca"
+	SEARCH  8:"https:\/\/solub.irsst.qc.ca" =====================> "http:\/\/solub.irsst.qc.ca"
+	SEARCH  9:"https%3A%2F%2Fsolub.irsst.qc.ca" =================> "http%3A%2F%2Fsolub.irsst.qc.ca"
+
+EVALUATE TABLE: "wpo5_term_relationships"_________________________[ROWS:   107][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/solub.irsst.qc.ca/public_html" => "/home/solubirsst/public_html"
+	SEARCH  2:"\/home\/customer\/www\/solub.irsst.qc.ca\/public_html" => "\/home\/solubirsst\/public_html"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fsolub.irsst.qc.ca%2Fpublic_html" => "%2Fhome%2Fsolubirsst%2Fpublic_html"
+	SEARCH  4:"\home\customer\www\solub.irsst.qc.ca\public_html" => "/home/solubirsst/public_html"
+	SEARCH  5:"\\home\\customer\\www\\solub.irsst.qc.ca\\public_html" => "\/home\/solubirsst\/public_html"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Csolub.irsst.qc.ca%5Cpublic_html" => "%2Fhome%2Fsolubirsst%2Fpublic_html"
+	SEARCH  7:"https://solub.irsst.qc.ca" =======================> "http://solub.irsst.qc.ca"
+	SEARCH  8:"https:\/\/solub.irsst.qc.ca" =====================> "http:\/\/solub.irsst.qc.ca"
+	SEARCH  9:"https%3A%2F%2Fsolub.irsst.qc.ca" =================> "http%3A%2F%2Fsolub.irsst.qc.ca"
+
+EVALUATE TABLE: "wpo5_term_taxonomy"______________________________[ROWS:    10][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/solub.irsst.qc.ca/public_html" => "/home/solubirsst/public_html"
+	SEARCH  2:"\/home\/customer\/www\/solub.irsst.qc.ca\/public_html" => "\/home\/solubirsst\/public_html"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fsolub.irsst.qc.ca%2Fpublic_html" => "%2Fhome%2Fsolubirsst%2Fpublic_html"
+	SEARCH  4:"\home\customer\www\solub.irsst.qc.ca\public_html" => "/home/solubirsst/public_html"
+	SEARCH  5:"\\home\\customer\\www\\solub.irsst.qc.ca\\public_html" => "\/home\/solubirsst\/public_html"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Csolub.irsst.qc.ca%5Cpublic_html" => "%2Fhome%2Fsolubirsst%2Fpublic_html"
+	SEARCH  7:"https://solub.irsst.qc.ca" =======================> "http://solub.irsst.qc.ca"
+	SEARCH  8:"https:\/\/solub.irsst.qc.ca" =====================> "http:\/\/solub.irsst.qc.ca"
+	SEARCH  9:"https%3A%2F%2Fsolub.irsst.qc.ca" =================> "http%3A%2F%2Fsolub.irsst.qc.ca"
+
+EVALUATE TABLE: "wpo5_termmeta"___________________________________[ROWS:    47][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/solub.irsst.qc.ca/public_html" => "/home/solubirsst/public_html"
+	SEARCH  2:"\/home\/customer\/www\/solub.irsst.qc.ca\/public_html" => "\/home\/solubirsst\/public_html"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fsolub.irsst.qc.ca%2Fpublic_html" => "%2Fhome%2Fsolubirsst%2Fpublic_html"
+	SEARCH  4:"\home\customer\www\solub.irsst.qc.ca\public_html" => "/home/solubirsst/public_html"
+	SEARCH  5:"\\home\\customer\\www\\solub.irsst.qc.ca\\public_html" => "\/home\/solubirsst\/public_html"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Csolub.irsst.qc.ca%5Cpublic_html" => "%2Fhome%2Fsolubirsst%2Fpublic_html"
+	SEARCH  7:"https://solub.irsst.qc.ca" =======================> "http://solub.irsst.qc.ca"
+	SEARCH  8:"https:\/\/solub.irsst.qc.ca" =====================> "http:\/\/solub.irsst.qc.ca"
+	SEARCH  9:"https%3A%2F%2Fsolub.irsst.qc.ca" =================> "http%3A%2F%2Fsolub.irsst.qc.ca"
+
+EVALUATE TABLE: "wpo5_terms"______________________________________[ROWS:    10][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/solub.irsst.qc.ca/public_html" => "/home/solubirsst/public_html"
+	SEARCH  2:"\/home\/customer\/www\/solub.irsst.qc.ca\/public_html" => "\/home\/solubirsst\/public_html"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fsolub.irsst.qc.ca%2Fpublic_html" => "%2Fhome%2Fsolubirsst%2Fpublic_html"
+	SEARCH  4:"\home\customer\www\solub.irsst.qc.ca\public_html" => "/home/solubirsst/public_html"
+	SEARCH  5:"\\home\\customer\\www\\solub.irsst.qc.ca\\public_html" => "\/home\/solubirsst\/public_html"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Csolub.irsst.qc.ca%5Cpublic_html" => "%2Fhome%2Fsolubirsst%2Fpublic_html"
+	SEARCH  7:"https://solub.irsst.qc.ca" =======================> "http://solub.irsst.qc.ca"
+	SEARCH  8:"https:\/\/solub.irsst.qc.ca" =====================> "http:\/\/solub.irsst.qc.ca"
+	SEARCH  9:"https%3A%2F%2Fsolub.irsst.qc.ca" =================> "http%3A%2F%2Fsolub.irsst.qc.ca"
+
+EVALUATE TABLE: "wpo5_usermeta"___________________________________[ROWS:   124][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/solub.irsst.qc.ca/public_html" => "/home/solubirsst/public_html"
+	SEARCH  2:"\/home\/customer\/www\/solub.irsst.qc.ca\/public_html" => "\/home\/solubirsst\/public_html"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fsolub.irsst.qc.ca%2Fpublic_html" => "%2Fhome%2Fsolubirsst%2Fpublic_html"
+	SEARCH  4:"\home\customer\www\solub.irsst.qc.ca\public_html" => "/home/solubirsst/public_html"
+	SEARCH  5:"\\home\\customer\\www\\solub.irsst.qc.ca\\public_html" => "\/home\/solubirsst\/public_html"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Csolub.irsst.qc.ca%5Cpublic_html" => "%2Fhome%2Fsolubirsst%2Fpublic_html"
+	SEARCH  7:"https://solub.irsst.qc.ca" =======================> "http://solub.irsst.qc.ca"
+	SEARCH  8:"https:\/\/solub.irsst.qc.ca" =====================> "http:\/\/solub.irsst.qc.ca"
+	SEARCH  9:"https%3A%2F%2Fsolub.irsst.qc.ca" =================> "http%3A%2F%2Fsolub.irsst.qc.ca"
+
+EVALUATE TABLE: "wpo5_users"______________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/solub.irsst.qc.ca/public_html" => "/home/solubirsst/public_html"
+	SEARCH  2:"\/home\/customer\/www\/solub.irsst.qc.ca\/public_html" => "\/home\/solubirsst\/public_html"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fsolub.irsst.qc.ca%2Fpublic_html" => "%2Fhome%2Fsolubirsst%2Fpublic_html"
+	SEARCH  4:"\home\customer\www\solub.irsst.qc.ca\public_html" => "/home/solubirsst/public_html"
+	SEARCH  5:"\\home\\customer\\www\\solub.irsst.qc.ca\\public_html" => "\/home\/solubirsst\/public_html"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Csolub.irsst.qc.ca%5Cpublic_html" => "%2Fhome%2Fsolubirsst%2Fpublic_html"
+	SEARCH  7:"https://solub.irsst.qc.ca" =======================> "http://solub.irsst.qc.ca"
+	SEARCH  8:"https:\/\/solub.irsst.qc.ca" =====================> "http:\/\/solub.irsst.qc.ca"
+	SEARCH  9:"https%3A%2F%2Fsolub.irsst.qc.ca" =================> "http%3A%2F%2Fsolub.irsst.qc.ca"
+
+EVALUATE TABLE: "wpo5_yoast_indexable"____________________________[ROWS:   262][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/solub.irsst.qc.ca/public_html" => "/home/solubirsst/public_html"
+	SEARCH  2:"\/home\/customer\/www\/solub.irsst.qc.ca\/public_html" => "\/home\/solubirsst\/public_html"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fsolub.irsst.qc.ca%2Fpublic_html" => "%2Fhome%2Fsolubirsst%2Fpublic_html"
+	SEARCH  4:"\home\customer\www\solub.irsst.qc.ca\public_html" => "/home/solubirsst/public_html"
+	SEARCH  5:"\\home\\customer\\www\\solub.irsst.qc.ca\\public_html" => "\/home\/solubirsst\/public_html"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Csolub.irsst.qc.ca%5Cpublic_html" => "%2Fhome%2Fsolubirsst%2Fpublic_html"
+	SEARCH  7:"https://solub.irsst.qc.ca" =======================> "http://solub.irsst.qc.ca"
+	SEARCH  8:"https:\/\/solub.irsst.qc.ca" =====================> "http:\/\/solub.irsst.qc.ca"
+	SEARCH  9:"https%3A%2F%2Fsolub.irsst.qc.ca" =================> "http%3A%2F%2Fsolub.irsst.qc.ca"
+
+EVALUATE TABLE: "wpo5_yoast_indexable_hierarchy"__________________[ROWS:    38][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/solub.irsst.qc.ca/public_html" => "/home/solubirsst/public_html"
+	SEARCH  2:"\/home\/customer\/www\/solub.irsst.qc.ca\/public_html" => "\/home\/solubirsst\/public_html"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fsolub.irsst.qc.ca%2Fpublic_html" => "%2Fhome%2Fsolubirsst%2Fpublic_html"
+	SEARCH  4:"\home\customer\www\solub.irsst.qc.ca\public_html" => "/home/solubirsst/public_html"
+	SEARCH  5:"\\home\\customer\\www\\solub.irsst.qc.ca\\public_html" => "\/home\/solubirsst\/public_html"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Csolub.irsst.qc.ca%5Cpublic_html" => "%2Fhome%2Fsolubirsst%2Fpublic_html"
+	SEARCH  7:"https://solub.irsst.qc.ca" =======================> "http://solub.irsst.qc.ca"
+	SEARCH  8:"https:\/\/solub.irsst.qc.ca" =====================> "http:\/\/solub.irsst.qc.ca"
+	SEARCH  9:"https%3A%2F%2Fsolub.irsst.qc.ca" =================> "http%3A%2F%2Fsolub.irsst.qc.ca"
+
+EVALUATE TABLE: "wpo5_yoast_migrations"___________________________[ROWS:    21][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/solub.irsst.qc.ca/public_html" => "/home/solubirsst/public_html"
+	SEARCH  2:"\/home\/customer\/www\/solub.irsst.qc.ca\/public_html" => "\/home\/solubirsst\/public_html"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fsolub.irsst.qc.ca%2Fpublic_html" => "%2Fhome%2Fsolubirsst%2Fpublic_html"
+	SEARCH  4:"\home\customer\www\solub.irsst.qc.ca\public_html" => "/home/solubirsst/public_html"
+	SEARCH  5:"\\home\\customer\\www\\solub.irsst.qc.ca\\public_html" => "\/home\/solubirsst\/public_html"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Csolub.irsst.qc.ca%5Cpublic_html" => "%2Fhome%2Fsolubirsst%2Fpublic_html"
+	SEARCH  7:"https://solub.irsst.qc.ca" =======================> "http://solub.irsst.qc.ca"
+	SEARCH  8:"https:\/\/solub.irsst.qc.ca" =====================> "http:\/\/solub.irsst.qc.ca"
+	SEARCH  9:"https%3A%2F%2Fsolub.irsst.qc.ca" =================> "http%3A%2F%2Fsolub.irsst.qc.ca"
+
+EVALUATE TABLE: "wpo5_yoast_primary_term"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpo5_yoast_seo_links"____________________________[ROWS:   872][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/solub.irsst.qc.ca/public_html" => "/home/solubirsst/public_html"
+	SEARCH  2:"\/home\/customer\/www\/solub.irsst.qc.ca\/public_html" => "\/home\/solubirsst\/public_html"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fsolub.irsst.qc.ca%2Fpublic_html" => "%2Fhome%2Fsolubirsst%2Fpublic_html"
+	SEARCH  4:"\home\customer\www\solub.irsst.qc.ca\public_html" => "/home/solubirsst/public_html"
+	SEARCH  5:"\\home\\customer\\www\\solub.irsst.qc.ca\\public_html" => "\/home\/solubirsst\/public_html"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Csolub.irsst.qc.ca%5Cpublic_html" => "%2Fhome%2Fsolubirsst%2Fpublic_html"
+	SEARCH  7:"https://solub.irsst.qc.ca" =======================> "http://solub.irsst.qc.ca"
+	SEARCH  8:"https:\/\/solub.irsst.qc.ca" =====================> "http:\/\/solub.irsst.qc.ca"
+	SEARCH  9:"https%3A%2F%2Fsolub.irsst.qc.ca" =================> "http%3A%2F%2Fsolub.irsst.qc.ca"
+
+EVALUATE TABLE: "wpo5_yoast_seo_meta"_____________________________[ROWS:   254][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/solub.irsst.qc.ca/public_html" => "/home/solubirsst/public_html"
+	SEARCH  2:"\/home\/customer\/www\/solub.irsst.qc.ca\/public_html" => "\/home\/solubirsst\/public_html"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fsolub.irsst.qc.ca%2Fpublic_html" => "%2Fhome%2Fsolubirsst%2Fpublic_html"
+	SEARCH  4:"\home\customer\www\solub.irsst.qc.ca\public_html" => "/home/solubirsst/public_html"
+	SEARCH  5:"\\home\\customer\\www\\solub.irsst.qc.ca\\public_html" => "\/home\/solubirsst\/public_html"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Csolub.irsst.qc.ca%5Cpublic_html" => "%2Fhome%2Fsolubirsst%2Fpublic_html"
+	SEARCH  7:"https://solub.irsst.qc.ca" =======================> "http://solub.irsst.qc.ca"
+	SEARCH  8:"https:\/\/solub.irsst.qc.ca" =====================> "http:\/\/solub.irsst.qc.ca"
+	SEARCH  9:"https%3A%2F%2Fsolub.irsst.qc.ca" =================> "http%3A%2F%2Fsolub.irsst.qc.ca"
+
+EVALUATE TABLE: "wpo5_yydev_tagmanager"___________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/customer/www/solub.irsst.qc.ca/public_html" => "/home/solubirsst/public_html"
+	SEARCH  2:"\/home\/customer\/www\/solub.irsst.qc.ca\/public_html" => "\/home\/solubirsst\/public_html"
+	SEARCH  3:"%2Fhome%2Fcustomer%2Fwww%2Fsolub.irsst.qc.ca%2Fpublic_html" => "%2Fhome%2Fsolubirsst%2Fpublic_html"
+	SEARCH  4:"\home\customer\www\solub.irsst.qc.ca\public_html" => "/home/solubirsst/public_html"
+	SEARCH  5:"\\home\\customer\\www\\solub.irsst.qc.ca\\public_html" => "\/home\/solubirsst\/public_html"
+	SEARCH  6:"%5Chome%5Ccustomer%5Cwww%5Csolub.irsst.qc.ca%5Cpublic_html" => "%2Fhome%2Fsolubirsst%2Fpublic_html"
+	SEARCH  7:"https://solub.irsst.qc.ca" =======================> "http://solub.irsst.qc.ca"
+	SEARCH  8:"https:\/\/solub.irsst.qc.ca" =====================> "http:\/\/solub.irsst.qc.ca"
+	SEARCH  9:"https%3A%2F%2Fsolub.irsst.qc.ca" =================> "http%3A%2F%2Fsolub.irsst.qc.ca"
+--------------------------------------
+SCANNED:	Tables:28 	|	 Rows:6568 	|	 Cells:85779 
+UPDATED:	Tables:7 	|	 Rows:2621 	|	 Cells:3693 
+ERRORS:		0 
+RUNTIME:	2.491500 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 05:38:39 - RUNTIME: 2.5314 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================
